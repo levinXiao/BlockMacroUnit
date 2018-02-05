@@ -40,6 +40,7 @@
 		B8ACE645202839ED00CFE9FA /* BlockMarcoUnitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockMarcoUnitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8ACE649202839ED00CFE9FA /* BlockMarcoUnitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockMarcoUnitExampleTests.m; sourceTree = "<group>"; };
 		B8ACE64B202839ED00CFE9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8ACE65520283A2E00CFE9FA /* BlockMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockMarco.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +82,14 @@
 		B8ACE62F202839ED00CFE9FA /* BlockMarcoUnitExample */ = {
 			isa = PBXGroup;
 			children = (
+				B8ACE65420283A0600CFE9FA /* BlockMarcoUnit */,
 				B8ACE630202839ED00CFE9FA /* AppDelegate.h */,
 				B8ACE631202839ED00CFE9FA /* AppDelegate.m */,
 				B8ACE633202839ED00CFE9FA /* ViewController.h */,
 				B8ACE634202839ED00CFE9FA /* ViewController.m */,
-				B8ACE636202839ED00CFE9FA /* Main.storyboard */,
 				B8ACE639202839ED00CFE9FA /* Assets.xcassets */,
 				B8ACE63B202839ED00CFE9FA /* LaunchScreen.storyboard */,
+				B8ACE636202839ED00CFE9FA /* Main.storyboard */,
 				B8ACE63E202839ED00CFE9FA /* Info.plist */,
 				B8ACE63F202839ED00CFE9FA /* main.m */,
 			);
@@ -101,6 +103,14 @@
 				B8ACE64B202839ED00CFE9FA /* Info.plist */,
 			);
 			path = BlockMarcoUnitExampleTests;
+			sourceTree = "<group>";
+		};
+		B8ACE65420283A0600CFE9FA /* BlockMarcoUnit */ = {
+			isa = PBXGroup;
+			children = (
+				B8ACE65520283A2E00CFE9FA /* BlockMarco.h */,
+			);
+			path = BlockMarcoUnit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BlockMarcoUnitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu.BlockMarcoUnitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BlockMarcoUnitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu.BlockMarcoUnitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
