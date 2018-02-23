@@ -6,7 +6,7 @@ RAC block @weakify & @strongify easy to use
 
 ## Why use BlockMacroUnit
 BlockMacroUnit is a tool used for those non-RAC-support project.
-RAC has a great feature (@weakify & @strongify) who will increase coding speed and experience.
+RAC has a great feature (@weakify & @strongify) to increase coding speed and experience.
 
 ## How to Use
 
